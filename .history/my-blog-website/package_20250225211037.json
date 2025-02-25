@@ -1,0 +1,31 @@
+{
+  "name": "my-blog-website",
+  "version": "1.0.0",
+  "description": "A simple blog website with user authentication and commenting features.",
+  "main": "src/index.tsx",  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tunnel": "cloudflared tunnel --config ./config.yml run"
+  },
+  "keywords": [
+    "blog",
+    "react",
+    "authentication",
+    "comments"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.2.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "react-scripts": "4.0.3"
+  }
+}
